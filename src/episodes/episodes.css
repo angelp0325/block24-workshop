@@ -21,3 +21,17 @@
   flex-direction: column;
   gap: 1ch;
 }
+
+.episode-details button {
+  align-self: flex-start;
+  width: auto;
+  padding: 0.5rem 1rem;
+  background: white;
+  border: none;
+  color: #222;
+  cursor: pointer;
+}
+
+.episode-details button:hover {
+  background: gray;
+}
